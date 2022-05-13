@@ -33,6 +33,7 @@ const GetTabData= () => {
 
   return (
     <div className="container" >
+          <BarGraph/>
         <table className="table table-bordered my-5">
         <thead>
           <tr>
@@ -57,7 +58,6 @@ const GetTabData= () => {
           })}
         </tbody>
       </table>
-      <BarGraph/>
     </div>
     
   );
